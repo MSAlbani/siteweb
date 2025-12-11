@@ -1,0 +1,149 @@
+header {
+  top: 0;
+  background-color: #ffffff;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header1Ligne {
+  background-color: #1db954;
+  text-align: end;
+  padding: 0 20px;
+  color: blue;
+  height: 30px;
+  align-content: center;
+}
+.header1Ligne ul li {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  margin: 0 10px;
+}
+.header1Ligne ul li a {
+  text-decoration: none;
+}
+.header2Ligne {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  justify-content: space-between;
+}
+.divNavigation ul li {
+  display: inline;
+  list-style: none;
+  margin: 0 10px;
+}
+.divNavigation ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  transition: color 0.3s;
+}
+.divNavigation ul li a:hover {
+  color: #1db954;
+}
+
+/********************  BODY    *********************/
+
+main {
+  margin: 110px 50px 10px 50px;
+}
+.imgBack {
+  background-image: url("./img/Background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imgBack button {
+  padding: 15px 25px;
+  font-size: 20px;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.9s;
+}
+.imgBack button:hover {
+  background-color: #14833b;
+}
+.msgBeinvenu h3 {
+  color: white;
+  font-size: 40px;
+}
+.msgBeinvenu h3 span {
+  font-weight: bold;
+  color: #1db954;
+}
+.msgBeinvenu p {
+  color: white;
+  font-size: 20px;
+  /* margin: 10px 0; */
+}
+
+.apropos,
+.services,
+.galerie,
+.contact {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.images img {
+  width: 250px;
+  border-radius: 6px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+  margin: auto;
+}
+input,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+.btn {
+  background: #1db954;
+  padding: 12px 25px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+}
